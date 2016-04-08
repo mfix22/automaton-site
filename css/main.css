@@ -72,7 +72,8 @@ body {
 }
 
 #heroText {
-    font-family: 'Varela Round', sans-serif;
+  font-family: 'Noto Serif', serif;
+    /*font-family: 'Varela Round', sans-serif;*/
 }
 
 #heroSubtext {
@@ -119,11 +120,12 @@ body {
 }
 
 #heroDesc {
-    font-family: 'Noto Serif', serif;
+    /*font-family: 'Noto Serif', serif;*/
+    font-family: 'Varela Round', sans-serif
     color: #00303B;
     margin-top: 40px;
     margin-bottom: 0;
-    font-size: 1.4em;
+    font-size: 2.5em;
 }
 
 .sponsorBtnLink {
@@ -558,4 +560,14 @@ body {
 }
 #brand_button_row{
   width: 100%;
+}
+
+#debug{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: black;
+  color: white;
 }

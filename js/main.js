@@ -1,4 +1,6 @@
 document.getElementById('inquiry_btn').style.visibility="hidden";
+document.getElementById('brand_button_row').style.visibility="hidden";
+
 function showBtn(){
 	document.getElementById('inquiry_btn').style.visibility="visible";
 	$('#inquiry_btn').addClass('animated fadeIn');
@@ -32,4 +34,14 @@ $('.bran_button_img').click(function(){
 		van.src = "img/cars/" + brandSrc.substring(brandSrc.lastIndexOf('/')+1);
 	}
 		
+});
+
+$(document).scroll(function(){
+	var st = $(document).scrollTop();
+    document.getElementById('debug').innerHTML = st;
+
+    if (st > 360){
+    	document.getElementById('brand_button_row').style.visibility="visible";
+    	$('#brand_button_row').addClass('animated fadeInUp')
+    }
 });
