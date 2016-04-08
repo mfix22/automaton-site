@@ -1,3 +1,4 @@
+var pepsi_seen = false;
 document.getElementById('inquiry_btn').style.visibility="hidden";
 document.getElementById('brand_button_row').style.visibility="hidden";
 
@@ -23,8 +24,9 @@ function showBtn(){
 $('.bran_button_img').click(function(){
 	var van = document.getElementById("van");	
 	var brandSrc = this.getAttribute('src');
-	if (brandSrc == "img/brand_buttons/pepsi.png"){
-		van.src = "img/cars/coke.png" ;
+	if (brandSrc == "img/brand_buttons/pepsi.png" && !pepsi_seen){
+		van.src = "img/cars/coke.png";
+		pepsi_seen = true;
 		setTimeout(function () {
 			van.src = "img/cars/" + brandSrc.substring(brandSrc.lastIndexOf('/')+1);
     	}, 500);

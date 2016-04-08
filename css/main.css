@@ -121,15 +121,16 @@ body {
 
 #heroDesc {
     /*font-family: 'Noto Serif', serif;*/
-    font-family: 'Varela Round', sans-serif
-    color: #00303B;
+    font-family: 'Varela Round', sans-serif;
+    color: #222;
+    /*color: #00303B;*/
     margin-top: 40px;
     margin-bottom: 0;
     font-size: 2.5em;
 }
 
 .sponsorBtnLink {
-    background: #7CC7D8;
+    background: #1CA3C4; /*#7CC7D8;*/
     border-radius: 40px;
     color: white;
     
@@ -156,7 +157,7 @@ body {
 #hero {
     height: 505px;
     
-    background: #1CA3C4;
+    background: #dd1021; /*#1CA3C4;*/
     
     padding-top: 40px;
     padding-bottom: 40px;
