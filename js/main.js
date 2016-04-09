@@ -30,9 +30,14 @@ $('.bran_button_img').click(function(){
 		pepsi_seen = true;
 		setTimeout(function () {
 			van.src = "img/cars/" + brandSrc.substring(brandSrc.lastIndexOf('/')+1);
-    	}, 500);
-			
+    	}, 500);	
 	}
+  else if(brandSrc == "img/brand_buttons/facebook.png"){
+    var like =document.createElement('div');
+    like.setAttribute("id", "like");
+    var main = document.getElementById('main_car');
+    main.appendChild(like);
+  }
 	else{
 		van.src = "img/cars/" + brandSrc.substring(brandSrc.lastIndexOf('/')+1);
 	}

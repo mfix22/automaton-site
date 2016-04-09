@@ -502,8 +502,10 @@ body {
 }
 
 .car_model{
-  position: relative;
-
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0px;
 }
 .car_model img{
   position: absolute;
@@ -530,6 +532,20 @@ body {
   padding-top: 250px;
   padding-bottom: 100px;
   clear: both;
+}
+#main_car{
+  height: 195px;
+  width: 481px;
+}
+
+#left_car{
+  height: 107px;
+  width: 319px;
+}
+
+#right_car{
+  height: 116px;
+  width: 280px;
 }
 
 .brand_button{
@@ -591,4 +607,13 @@ body {
   background-color: black;
   width: 10px;
   height: 10px
+}
+
+#like{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 50px;
+  z-index: 100;
 }
