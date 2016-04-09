@@ -1,0 +1,14 @@
+{
+  "name": "Automata",
+  "version": "1.0.0",
+  "description": "Automata Advertising",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Fix",
+  "license": "ISC",
+  "dependencies": {
+    "chart.js": "^1.1.1"
+  }
+}

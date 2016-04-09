@@ -2,7 +2,7 @@
 body {
     min-height: 500px;
     min-width: 320px;
-    background: #1CA3C4;
+    background: #dd1021;
 }
 
 a {
@@ -571,4 +571,24 @@ body {
   left: 0px;
   background-color: black;
   color: white;
+}
+
+.legend{
+  margin-left: 5px;
+  position: relative;
+  font-size: 12px;
+  display: inline-block;
+  color: #000;
+  border-radius: 1px;
+  opacity: .5;
+}
+#lyft{
+  background-color: #ff00bf;
+  width: 10px;
+  height: 10px;
+}
+#uber{
+  background-color: black;
+  width: 10px;
+  height: 10px
 }
