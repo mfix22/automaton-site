@@ -529,7 +529,7 @@ body {
 }
 
 #car_row{
-  padding-top: 250px;
+  padding-top: 220px;
   padding-bottom: 100px;
   clear: both;
 }
@@ -611,9 +611,9 @@ body {
 
 #like{
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 7%;
+  left: 10%;
   height: 50px;
-  width: 50px;
+  width: 60px;
   z-index: 100;
 }

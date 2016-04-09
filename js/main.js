@@ -25,6 +25,7 @@ function showBtn(){
 $('.bran_button_img').click(function(){
 	var van = document.getElementById("van");	
 	var brandSrc = this.getAttribute('src');
+  //handle pepsi/coke easter egg
 	if (brandSrc == "img/brand_buttons/pepsi.png" && !pepsi_seen){
 		van.src = "img/cars/coke.png";
 		pepsi_seen = true;
@@ -32,13 +33,23 @@ $('.bran_button_img').click(function(){
 			van.src = "img/cars/" + brandSrc.substring(brandSrc.lastIndexOf('/')+1);
     	}, 500);	
 	}
+  //handle facebook like easter egg
   else if(brandSrc == "img/brand_buttons/facebook.png"){
-    var like =document.createElement('div');
-    like.setAttribute("id", "like");
-    var main = document.getElementById('main_car');
-    main.appendChild(like);
+    var like = document.getElementById('like');
+    if (like == null){
+      like = document.createElement('a');
+      like.setAttribute("id", "like");
+      like.setAttribute("href", "google.com");
+      var main = document.getElementById('main_car');
+      main.appendChild(like);
+    }
+    van.src = "img/cars/" + brandSrc.substring(brandSrc.lastIndexOf('/')+1);
   }
 	else{
+    var main = document.getElementById('main_car');
+    var like = document.getElementById('like');
+    if (like != null)
+      main.removeChild(like);
 		van.src = "img/cars/" + brandSrc.substring(brandSrc.lastIndexOf('/')+1);
 	}
 		
