@@ -1,6 +1,7 @@
 var pepsi_seen = false;
 document.getElementById('inquiry_btn').style.visibility="hidden";
 document.getElementById('brand_button_row').style.visibility="hidden";
+document.getElementById('like').style.visibility="hidden";
 
 
 function showBtn(){
@@ -35,21 +36,13 @@ $('.bran_button_img').click(function(){
 	}
   //handle facebook like easter egg
   else if(brandSrc == "img/brand_buttons/facebook.png"){
-    var like = document.getElementById('like');
-    if (like == null){
-      like = document.createElement('a');
-      like.setAttribute("id", "like");
-      like.setAttribute("href", "google.com");
-      var main = document.getElementById('main_car');
-      main.appendChild(like);
-    }
     van.src = "img/cars/" + brandSrc.substring(brandSrc.lastIndexOf('/')+1);
+    $("#like").addClass("animated tada");  
+    document.getElementById("like").style.visibility="visible";  
   }
 	else{
-    var main = document.getElementById('main_car');
-    var like = document.getElementById('like');
-    if (like != null)
-      main.removeChild(like);
+    $("#like").removeClass("animated tada");
+    document.getElementById("like").style.visibility="hidden";
 		van.src = "img/cars/" + brandSrc.substring(brandSrc.lastIndexOf('/')+1);
 	}
 		

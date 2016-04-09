@@ -534,8 +534,8 @@ body {
   clear: both;
 }
 #main_car{
-  height: 100%; /*195px;*/
-  width: 100%; /*481px;*/
+  height: 195px;
+  width: 481px;
 }
 
 #left_car{
@@ -608,11 +608,15 @@ body {
   width: 10px;
   height: 10px
 }
+#chart_title{
+  margin: 0;
+  color: #666;
+}
 
 #like{
   position: absolute;
-  top: 7%;
-  left: 10%;
+  top: 6%;
+  left: 9%;
   height: 50px;
   width: 60px;
   z-index: 100;
