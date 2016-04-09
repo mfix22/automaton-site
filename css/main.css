@@ -534,8 +534,8 @@ body {
   clear: both;
 }
 #main_car{
-  height: 195px;
-  width: 481px;
+  height: 100%; /*195px;*/
+  width: 100%; /*481px;*/
 }
 
 #left_car{
