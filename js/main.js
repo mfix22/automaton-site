@@ -50,7 +50,7 @@ $('.bran_button_img').click(function(){
 
 $(document).scroll(function(){
 	var st = $(document).scrollTop();
-    document.getElementById('debug').innerHTML = st;
+    // document.getElementById('debug').innerHTML = st;
 
     if (st > 360){
     	document.getElementById('brand_button_row').style.visibility="visible";
