@@ -142,6 +142,7 @@ body {
     font-weight: 700;
     font-size: 1.15em;
     margin-top: 25px;
+    margin-right: 150px;
     padding: 17px 32px 17px 32px;
 }
 
@@ -180,10 +181,26 @@ body {
     animation-duration: 1s;
     animation-delay: 1s;
 }
+.fadeCar {
+    -webkit-animation-duration: 3s;
+    -moz-animation-duration: 3s;
+    -o-animation-duration: 3s;
+    -ms-animation-duration: 3s;
+    animation-duration: 3s;
+    animation-delay: 0s;
+}
 
 .heroContent {
+    text-align: right;  
     margin-top: 75px;
+    margin-right: 100px;
     padding: 0 10px 0 10px;
+}
+
+#heroCar{
+  position: absolute;
+  margin-top: 5vh;
+  left: 2vw;
 }
 
 /* --- about --*/
