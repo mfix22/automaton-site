@@ -1,10 +1,10 @@
 {
-  "name": "Automata",
+  "name": "Automaton",
   "version": "1.0.0",
-  "description": "Automata Advertising",
+  "description": "Automaton Advertising",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
   },
   "author": "Michael Fix",
   "license": "ISC",
