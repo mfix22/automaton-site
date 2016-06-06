@@ -228,18 +228,18 @@ body {
     margin-top: 0;
     margin-bottom: 40px;
 }
+#about a{
+  color: #ea6f79;
+}
 
 .linesWordContainer {
     display: table;
     margin-bottom: 50px;
 }
 
-#sponsorApply {
-    letter-spacing: -1px;
-    color: #444;
-    font-size: 26px;
-    font-weight: 600;
-    margin-bottom: 30px;
+#driverStats{
+  margin-top: 10vh;
+  /*transform: translateY(-50%);*/
 }
 
 .helpPara {
@@ -525,4 +525,8 @@ body {
 }
 #bot_img{
   height: 300px;
+}
+
+#iphone{
+  height: 400px;
 }

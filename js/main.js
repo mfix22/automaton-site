@@ -65,42 +65,42 @@ $(document).scroll(function(){
     }
 });
 
-var barChartData = {
-              labels : ["San Francisco","New York City"],
-              datasets : [
-                {
-                  label : "Uber",
-                  // fillColor : "rgba(221,16,33,0.5)",
-                  // strokeColor : "rgba(220,220,220,0.8)",
-                  // highlightFill: "rgba(221,16,33,0.75)",
-                  // highlightStroke: "rgba(220,220,220,1)",
-                  fillColor : "rgba(0,0,0,0.5)",
-                  strokeColor : "rgba(220,220,220,0.8)",
-                  highlightFill: "rgba(0,0,0,0.75)",
-                  highlightStroke: "rgba(220,220,220,1)",
-                  data : [18000,16000]
-                },
-                {
-                  label : "Lyft",
-                  fillColor : "rgba(255, 0, 191,0.5)",
-                  strokeColor : "rgba(220,220,220,0.8)",
-                  highlightFill: "rgba(255, 0, 191,0.75)",
-                  highlightStroke: "rgba(220,220,220,1)",
-                  data : [15000,17000]
-                }
-              ]
-            }
-window.onload = function(){
-  var ctx = document.getElementById("chart").getContext("2d");
-  window.myBar = new Chart(ctx).Bar(barChartData, {
-    responsive : true,
-    scaleOverride : true,
-    scaleSteps : 5,
-    scaleStepWidth: 4000,
-    scaleStartValue: 0,
-    scaleShowLabels: true,
-    scaleShowGridLines : false,
-    barValueSpacing : 15,
-    showTooltips: false
-  });
-}
+// var barChartData = {
+//               labels : ["Active Drivers"],
+//               datasets : [
+//                 {
+//                   label : "Uber",
+//                   // fillColor : "rgba(221,16,33,0.5)",
+//                   // strokeColor : "rgba(220,220,220,0.8)",
+//                   // highlightFill: "rgba(221,16,33,0.75)",
+//                   // highlightStroke: "rgba(220,220,220,1)",
+//                   fillColor : "rgba(0,0,0,0.5)",
+//                   strokeColor : "rgba(220,220,220,0.8)",
+//                   highlightFill: "rgba(0,0,0,0.75)",
+//                   highlightStroke: "rgba(220,220,220,1)",
+//                   data : [327000]
+//                 },
+//                 {
+//                   label : "Lyft",
+//                   fillColor : "rgba(255, 0, 191,0.5)",
+//                   strokeColor : "rgba(220,220,220,0.8)",
+//                   highlightFill: "rgba(255, 0, 191,0.75)",
+//                   highlightStroke: "rgba(220,220,220,1)",
+//                   data : [315000]
+//                 }
+//               ]
+//             }
+// window.onload = function(){
+//   var ctx = document.getElementById("chart").getContext("2d");
+//   window.myBar = new Chart(ctx).Bar(barChartData, {
+//     responsive : true,
+//     scaleOverride : true,
+//     scaleSteps : 5,
+//     scaleStepWidth: 100000,
+//     scaleStartValue: 0,
+//     scaleShowLabels: true,
+//     scaleShowGridLines : false,
+//     barValueSpacing : 15,
+//     showTooltips: false
+//   });
+// }
