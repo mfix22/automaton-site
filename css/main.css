@@ -30,6 +30,9 @@ a:focus {
     padding-left: 15px;
     color: #444;
 }
+.sectionHeaderLighter{
+    color: #EEE;
+}
 
 .sectionSerif {
     font-style: italic;
@@ -84,6 +87,7 @@ body {
 /* nav */
 #logo {
     margin: 25px auto -25px auto;
+    width: 85px;
 }
 
 #navLinks {
@@ -130,7 +134,7 @@ body {
     font-size: 2.5em;
 }
 
-.sponsorBtnLink {
+.btnLink {
     background: #1CA3C4; /*#7CC7D8;*/
     border-radius: 40px;
     color: white;
@@ -146,15 +150,24 @@ body {
     margin-right: 205px;
     padding: 17px 32px 17px 32px;
 }
-
-.sponsorBtnLink:hover {
+.btnLink:hover {
     color: white;
     background: #75BFD0;
 }
 
-.sponsorBtnLink:focus {
+.btnLink:focus {
     color: white;
 }
+
+#contact .btnLink{
+  margin-right: 0px;
+  background-color: #dd1021;
+}
+#contact .btnLink:hover{
+  background-color: #ea6f79;
+}
+
+
 
 #hero {
     height: 505px;
@@ -204,116 +217,16 @@ body {
   left: 2vw;
 }
 
-/* --- about --*/
-#sketch {
-  margin: 0 auto;
-  width: 80%;
-  max-width: 500px;
-  
-  pointer-events: none;
-  margin-bottom: 30px;
-}
-
 #about {
-    background: white;
+  background: white;
+}
+#contact {
+  background-color: #1CA3C4; /*ligher tint of #dd1021*/
 }
 
 #about .sectionSerif {
     margin-top: 0;
     margin-bottom: 40px;
-}
-
-.exhibits {
-    margin-bottom: 40px;
-}
-
-#winningLines {
-    float: left;
-}
-
-#winningList {
-    list-style: none;
-    margin: 0;
-}
-
-#winningList li {
-    margin: 17px 0 17px 0;
-    font-size: 1.3em;
-}
-
-/* --- sponsors --*/
-.s-logos {
-  display: block;
-  margin: 30px auto;
-  height: 120px;
-}
-
-.s-logos img {
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-}
-
-#sponsors {
-  background: #F4F4F4;
-}
-
-#sponsors .sectionSerif {
-  color: #999;
-  margin-bottom: 50px;
-}
-
-#madworks {
-  margin-top: 40px;
-  margin-bottom: 10px;
-  
-  max-width: 332.25px;
-  max-height: 42px;
-}
-
-#capital {
-  width: 220px;
-  height: 83.5px;
-}
-
-.weinert {
-  margin-top: 10px;
-}
-
-.coe {
-  width: 80%;
-  max-width: 300px;
-}
-
-.fourfour {
-  width: 80%;
-  max-width: 250px;
-}
-
-#wceps {
-  margin-bottom: 30px;
-  width: 70%;
-  max-width: 180px;
-}
-
-#zendesk {
-  margin-top: 40px;
-  width: 70%;
-  max-width: 300px;
-}
-
-#wrp {
-  margin-top: 20px;
-  max-width: 300px;
-}
-
-#leeward {
-  margin-top: 20px;
-  max-width: 300px;
-}
-
-/* --- join --*/
-#join {
-    background: #FFF;
 }
 
 .linesWordContainer {
@@ -333,45 +246,6 @@ body {
     text-align: center;
 }
 
-/* --- team --*/
-#team {
-    background-image: url("/img/bgPattern.png");
-    background-size: 500px 500px;
-    background-repeat: repeat;
-}
-
-#team .sectionHeader,
-#team .sectionText {
-    color: white;
-}
-
-#team .sectionSerif {
-    margin: 40px 0 20px;
-}
-
-.teamPic {
-    margin: 20px 0px 20px;
-}
-
-#teambox img{
-    height: 80%;
-    width: 80%;
-    max-height: 128px;
-    max-width: 128px;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%); 
-    border-radius: 50%;
-}
-#teambox img:hover{
-    -webkit-filter: grayscale(0%);
-    filter: grayscale(0%); 
-    -moz-transform: scaleX(-1);
-    -o-transform: scaleX(-1);
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-    filter: FlipH;
-    -ms-filter: "FlipH";
-}
 
 #dropdownMenu1{
     color: white;
@@ -418,13 +292,13 @@ body {
 /* --- Media Queries -- */
 /* Custom, iPhone Retina */
 @media only screen and (min-width: 320px) {
-    .sponsorBtnLink {
+    .btnLink {
         margin-top: 25px;
     }
 }
 
 @media only screen and (min-width: 375px) {
-    .sponsorBtnLink {
+    .btnLink {
         margin-top: 57.5px;
     }
   
@@ -459,7 +333,7 @@ body {
 }
 
 @media only screen and (min-width: 653px) {
-  .sponsorBtnLink {
+  .btnLink {
         margin-top: 40px;
     }
   
@@ -541,6 +415,9 @@ body {
 #inquiry_select{
   font-size: 18px;
   height: 50px;
+}
+#inquiry_btn{
+  visibility: hidden;
 }
 .center_text{
   text-align: center;
@@ -640,5 +517,12 @@ body {
   z-index: 100;
 }
 .red{
-  color:#dd1021;
+  color: #dd1021;
+}
+
+.bot_wrapper{
+  margin-top: -30px;
+}
+#bot_img{
+  height: 300px;
 }

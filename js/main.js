@@ -1,5 +1,10 @@
 var pepsi_seen = false;
-document.getElementById('inquiry_btn').style.visibility="hidden";
+var debug = false;
+
+if (debug){
+  $("body").append('<div id="debug"></div>');
+}
+// document.getElementById('inquiry_btn').style.visibility="hidden";
 document.getElementById('brand_button_row').style.visibility="hidden";
 document.getElementById('like').style.visibility="hidden";
 
@@ -18,7 +23,7 @@ function showBtn(){
 	 default:
 	 subject = "General";
 	}
-	document.getElementById('inquiry_btn_link').href="mailto:mrfix84@gmail.com?subject=" +
+	document.getElementById('inquiry_btn_link').href="mailto:hello@automatonads.com?subject=" +
 													subject +
 													"&amp;body=Hi%20Chassis%2C%0A%3C%3CINSERT%20YOUR%20MESSAGE%20HERE%3E%3E%20";
 }
@@ -50,7 +55,9 @@ $('.bran_button_img').click(function(){
 
 $(document).scroll(function(){
 	var st = $(document).scrollTop();
-    // document.getElementById('debug').innerHTML = st;
+    if (debug) {
+      document.getElementById('debug').innerHTML = st;
+    }
 
     if (st > 360){
     	document.getElementById('brand_button_row').style.visibility="visible";
