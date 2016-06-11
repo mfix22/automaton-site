@@ -40,13 +40,13 @@
      inkscape:window-height="705"
      id="namedview136"
      showgrid="false"
-     inkscape:zoom="0.35355339"
-     inkscape:cx="-2009.8048"
-     inkscape:cy="411.14567"
+     inkscape:zoom="0.52539062"
+     inkscape:cx="216.08597"
+     inkscape:cy="457.77101"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg2" />
+     inkscape:current-layer="Artboard-6-Copy-6" />
   <!-- Generator: Sketch 3.8.1 (29687) - http://www.bohemiancoding.com/sketch -->
   <title
      id="title4">Artboard 6 Copy 6</title>
@@ -323,7 +323,10 @@
        id="Artboard-6-Copy-6">
       <g
          id="Arm---upper-Copy"
-         transform="translate(332.664005, 323.617746) rotate(-389.000000) translate(-332.664005, -323.617746) translate(311.664005, 265.117746)">
+         transform="translate(332.664005, 323.617746) rotate(-389.000000) translate(-332.664005, -323.617746) translate(311.664005, 265.117746)"
+         inkscape:export-filename="C:\Users\Michael\Documents\Web\Automaton\img\autobot.png"
+         inkscape:export-xdpi="90.129997"
+         inkscape:export-ydpi="90.129997">
         <path
            d="M19.5,1 C29.705329,1 37.7993689,9.28108004 37.578457,19.5003392 L35.8891538,97.6465463 C35.6682809,107.864002 28.3325484,116.146886 19.5,116.146886 C10.6693932,116.146886 3.3317581,107.865805 3.11084619,97.6465463 L1.42154299,19.5003392 C1.20067008,9.282884 9.29242711,1 19.5,1 Z"
            id="Rectangle-23"
@@ -332,14 +335,13 @@
            d="M38.6101635,17.1088132 C38.8255116,7.65779903 31.3413973,2.27373675e-13 21.8940321,2.27373675e-13 L17.1059679,2.27373675e-13 C7.6586119,2.20268248e-13 0.174551599,7.66057284 0.389871909,17.1103683 L0.776332211,51.071011 C0.916414022,52.8812939 4.79901923,54.6685026 19.5,54.6685026 C33.8040816,54.6685026 37.8656088,52.9764939 38.2021989,51.2175555 L38.6101635,17.1088132 Z"
            id="Combined-Shape"
            fill="#BEBEBE" />
-        <polyline
-           id="Path"
-           stroke="#979797"
-           points="41.9 67 41.9 39 41.9 39" />
       </g>
       <g
          id="Arm---upper-Copy-2"
-         transform="translate(108.964047, 316.376764) rotate(-302.000000) translate(-108.964047, -316.376764) translate(87.964047, 257.876764)">
+         transform="translate(108.964047, 316.376764) rotate(-302.000000) translate(-108.964047, -316.376764) translate(87.964047, 257.876764)"
+         inkscape:export-filename="C:\Users\Michael\Documents\Web\Automaton\img\autobot.png"
+         inkscape:export-xdpi="90.129997"
+         inkscape:export-ydpi="90.129997">
         <path
            d="M19.5,1 C29.705329,1 37.7993689,9.28108004 37.578457,19.5003392 L35.8891538,97.6465463 C35.6682809,107.864002 28.3325484,116.146886 19.5,116.146886 C10.6693932,116.146886 3.3317581,107.865805 3.11084619,97.6465463 L1.42154299,19.5003392 C1.20067008,9.282884 9.29242711,1 19.5,1 Z"
            id="path46"
@@ -348,14 +350,13 @@
            d="M38.6101635,17.1088132 C38.8255116,7.65779903 31.3413973,2.27373675e-13 21.8940321,2.27373675e-13 L17.1059679,2.27373675e-13 C7.6586119,2.20268248e-13 0.174551599,7.66057284 0.389871909,17.1103683 L0.776332211,51.071011 C0.916414022,52.8812939 4.79901923,54.6685026 19.5,54.6685026 C33.8040816,54.6685026 37.8656088,52.9764939 38.2021989,51.2175555 L38.6101635,17.1088132 Z"
            id="path48"
            fill="#BEBEBE" />
-        <polyline
-           id="polyline50"
-           stroke="#979797"
-           points="41.9 67 41.9 39 41.9 39" />
       </g>
       <g
          id="body-copy"
-         transform="translate(139.000000, 255.000000)">
+         transform="translate(139.000000, 255.000000)"
+         inkscape:export-filename="C:\Users\Michael\Documents\Web\Automaton\img\autobot.png"
+         inkscape:export-xdpi="90.129997"
+         inkscape:export-ydpi="90.129997">
         <path
            d="M133.474952,199.897948 C112.747392,210.79871 53.2516961,210.317654 35.8668612,198.454778 C33.7858331,197.069929 32.2857004,195.529971 31.5076095,193.834904 C22.7421083,175.310807 2.04714158,4.98278317 12.2579923,16.4614098 C22.1709781,27.9400365 149.579664,27.9400365 159.488365,16.4614098 C169.694931,4.98278317 149.063545,175.310807 140.304959,193.834904 C139.247012,196.143675 136.852211,198.164689 133.474952,199.897948 Z"
            id="Rectangle-1-Copy-14"
@@ -413,7 +414,10 @@
       </g>
       <g
          id="head-copy"
-         transform="translate(106.000000, 57.000000)">
+         transform="translate(106.000000, 57.000000)"
+         inkscape:export-filename="C:\Users\Michael\Documents\Web\Automaton\img\autobot.png"
+         inkscape:export-xdpi="90.129997"
+         inkscape:export-ydpi="90.129997">
         <path
            d="M0.375711303,143.108723 C-0.14596973,128.743245 -0.124379045,117.661151 0.440483358,103.356379 C1.79445928,69.0678223 146.987042,101.347988 146.987042,101.347988 L146.987042,145.117115 C146.987042,145.117115 1.64691406,178.113705 0.375711303,143.108723"
            id="Rectangle-1-Copy-10"
@@ -438,7 +442,8 @@
              cx="12.3259574"
              cy="12.3493976"
              rx="12.3259574"
-             ry="12.3493976" />
+             ry="12.3493976"
+             d="m 24.651915,12.349398 c 0,6.820384 -5.518519,12.349397 -12.325958,12.349397 C 5.5185191,24.698795 0,19.169782 0,12.349398 0,5.5290137 5.5185191,0 12.325957,0 19.133396,0 24.651915,5.5290137 24.651915,12.349398 z" />
         </g>
         <path
            d="M93.7570814,35.3764258 C111.389923,34.8537527 124.992591,34.8753844 142.550919,35.441321 C184.638255,36.7978718 145.01611,182.266566 145.01611,182.266566 L91.2918903,182.266566 C91.2918903,182.266566 50.7903728,36.650046 93.7570814,35.3764258 Z"
@@ -485,7 +490,10 @@
       </g>
       <g
          id="Arm---lower-Copy-2"
-         transform="translate(303.386935, 400.152864) rotate(-314.000000) translate(-303.386935, -400.152864) translate(273.386935, 320.152864)">
+         transform="translate(303.386935, 400.152864) rotate(-314.000000) translate(-303.386935, -400.152864) translate(273.386935, 320.152864)"
+         inkscape:export-filename="C:\Users\Michael\Documents\Web\Automaton\img\autobot.png"
+         inkscape:export-xdpi="90.129997"
+         inkscape:export-ydpi="90.129997">
         <polygon
            id="polygon91"
            fill="#D8D8D8"
@@ -529,7 +537,10 @@
       </g>
       <g
          id="Arm---lower-Copy-3"
-         transform="translate(74.773685, 273.998251) rotate(-542.000000) translate(-74.773685, -273.998251) translate(44.773685, 193.998251)">
+         transform="translate(74.773685, 273.998251) rotate(-542.000000) translate(-74.773685, -273.998251) translate(44.773685, 193.998251)"
+         inkscape:export-filename="C:\Users\Michael\Documents\Web\Automaton\img\autobot.png"
+         inkscape:export-xdpi="90.129997"
+         inkscape:export-ydpi="90.129997">
         <polygon
            id="polygon103"
            fill="#D8D8D8"
@@ -573,7 +584,10 @@
       </g>
       <g
          id="Group-3-Copy"
-         transform="translate(190.000000, 462.000000)">
+         transform="translate(190.000000, 462.000000)"
+         inkscape:export-filename="C:\Users\Michael\Documents\Web\Automaton\img\autobot.png"
+         inkscape:export-xdpi="90.129997"
+         inkscape:export-ydpi="90.129997">
         <rect
            id="Rectangle-29"
            fill="#BEBEBE"
